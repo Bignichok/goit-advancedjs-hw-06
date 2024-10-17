@@ -7,5 +7,3 @@ function getPromise(): Promise<[string, number]> {
 getPromise().then(data => {
   console.log(data);
 });
-
-export {};
